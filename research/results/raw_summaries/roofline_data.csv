@@ -1,0 +1,7 @@
+agent,env,flops,memory_bytes,us_per_step,oi,mflops_eff,in_l1,bottleneck
+stream_ac,gridworld,84,76,25.03074694365656,0.5526315789473685,3.355872686863137,True,Transcendental (expf/logf)
+stream_q,gridworld,400,800,14.289780708565795,0.25,27.992032079276484,True,Memory-bound (L1)
+tiny_dqn,gridworld,1152,1264,34.09392151170623,0.45569620253164556,33.78901425594172,True,ReLU + matmul
+stream_ac,cartpole,80,92,22.674003422580626,0.43478260869565216,3.5282697329193073,True,Transcendental (expf/logf)
+stream_q,cartpole,41472,82944,596.3069729801485,0.25,69.54807151212138,False,Cache misses (SRAM)
+tiny_dqn,cartpole,1152,1784,49.70115987189458,0.32286995515695066,23.1785335185194,True,ReLU + matmul
