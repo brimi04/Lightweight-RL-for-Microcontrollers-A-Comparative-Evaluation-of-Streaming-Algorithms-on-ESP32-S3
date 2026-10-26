@@ -1,0 +1,67 @@
+envs:
+  gridworld:
+    # optimum: 7*(-1) + 10 = 3.0 (minimum of 8 steps from (0,0) to (4,4)).
+    # 5.0 was unreachable with this reward scheme; 2.5 leaves a margin
+    # of ~1 extra step over the optimum in the 20-episode moving average.
+    success_reward: 2.5
+    # convergence_reward: attainable threshold for the lightweight agents.
+    # Different from success_reward (Gym's 'solved'). ~65% of the attainable optimum.
+    convergence_reward: 1.5
+    max_episode_steps: 100
+    episodes: 300
+  cartpole:
+    success_reward: 475.0
+    # stream_q reaches a mean of ~105; 50 is an attainable threshold that distinguishes
+    # agents from each other (stream_ac/tiny_dqn may not cross it -- informative).
+    convergence_reward: 50.0
+    max_episode_steps: 500
+    episodes: 1500
+  mountaincar:
+    success_reward: -110.0
+    # stream_q reaches a mean of -155; -175 is attainable early in learning.
+    convergence_reward: -175.0
+    max_episode_steps: 200
+    episodes: 2000
+
+agents:
+  stream_q:
+    alpha: 0.1
+    gamma: 0.99
+    lam: 0.9
+    epsilon: 0.1
+    epsilon_decay: 0.999
+  stream_ac:
+    alpha_actor: 0.01
+    alpha_critic: 0.02
+    gamma: 0.99
+    # entropy_coef=0.05 (previously 0.3, changed 2026-07-09): 0.3 was left written
+    # here after the official run of 2026-06-25 (probably a
+    # leftover from the entropy_coef ablation of 2026-06-29, which sweeps through
+    # this value among others) and did not reproduce bit-exact raw_final/
+    # stream_ac_gridworld_*.csv nor any other combination tried by grid search.
+    # 0.05 is the value that the paper's own ablation table already marks in
+    # bold as the "adopted value" for Stream-AC/GridWorld (and the one that the
+    # text of that section also recommends for CartPole). It is adopted as
+    # the new canonical universal value and GridWorld x Stream-AC was re-run
+    # (10 official seeds) with this value so that the results table and the
+    # hyperparameter table of the paper are mutually consistent and reproducible
+    # from here on. See MEMORIA_PROYECTO.md section 17 (project notes, not included) for details.
+    entropy_coef: 0.05
+  tiny_dqn:
+    hidden: 12
+    lr: 0.002
+    gamma: 0.99
+    epsilon: 0.15
+    epsilon_decay: 0.999
+    buffer_size: 32
+
+seeds: [0, 1, 2]
+episodes: 300
+
+# Explicit per-environment overrides, applied by run_single.resolve_params().
+# Only case: Stream-AC on CartPole (official raw_final/ runs and firmware).
+overrides:
+  cartpole:
+    stream_ac:
+      alpha_actor: 0.005
+      alpha_critic: 0.01
