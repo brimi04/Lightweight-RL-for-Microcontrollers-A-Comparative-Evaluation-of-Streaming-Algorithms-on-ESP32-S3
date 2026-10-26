@@ -1,0 +1,25 @@
+# Environment that generated research/results/raw_final/ and all controls/ablations.
+# Source: installed-package metadata (*.dist-info) of the original research/.venv
+#         (Windows, Python 3.10.0).
+# pip and setuptools omitted. scipy was NOT installed in this environment.
+cloudpickle==3.1.2
+contourpy==1.3.2
+cycler==0.12.1
+Farama-Notifications==0.0.6
+fonttools==4.63.0
+gymnasium==0.29.1
+kiwisolver==1.5.0
+matplotlib==3.10.9
+numpy==2.2.6
+packaging==26.2
+pandas==2.3.3
+pillow==12.2.0
+pyparsing==3.3.2
+pyserial==3.5
+python-dateutil==2.9.0.post0
+pytz==2026.2
+PyYAML==6.0.3
+six==1.17.0
+tabulate==0.10.0
+typing_extensions==4.15.0
+tzdata==2026.2

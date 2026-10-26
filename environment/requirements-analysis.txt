@@ -1,0 +1,9 @@
+# Statistical-analysis environment (scripts that import scipy.stats).
+# Source: packages installed in the Python 3.10 environment used for the analysis
+#         (identified from installed-package metadata, not from execution logs).
+# Only these packages are pinned; their dependencies were not recorded.
+numpy==1.26.4
+scipy==1.15.3
+pandas==2.3.1
+matplotlib==3.10.5
+PyYAML==6.0.2
