@@ -1,0 +1,13 @@
+env,agent,n,source,r20_mean,r20_sd,auc_mean,auc_sd,ep_threshold_median,k_over_n,steps_threshold_median,memory_bytes,flops_per_update
+gridworld,stream_q,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),1.9049999999999998,0.7466406245458536,1.2686666666666666,0.8000743792583781,24.0,9/10,369.0,800,400
+gridworld,stream_ac,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.3649999999999998,0.3830071075638733,0.5119999999999999,0.5565661918639381,61.0,10/10,931.0,76,84
+gridworld,tiny_dqn,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),1.855,0.4792644827696336,-3.836666666666667,6.243443177930699,97.5,10/10,1700.0,1264,1152
+gridworld,standard_dqn,5,ORIGINAL: raw_final/ (unchanged),0.8,0.7802243267163619,-11.837333333333333,1.6585994761310592,299.0,1/5,6644.0,316912,1433600
+cartpole,stream_q,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),94.80999999999999,56.80527557659881,52.01913333333333,32.18549913966126,784.5,8/10,12485.0,82944,41472
+cartpole,stream_ac,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.865,0.42950229594522793,11.679533333333332,0.4059312171863847,,0/10,,92,80
+cartpole,tiny_dqn,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.54,0.33065591380366,10.357066666666666,0.2206178081750217,,0/10,,1784,1152
+cartpole,standard_dqn,5,ORIGINAL: raw_final/ (unchanged),22.410000000000004,7.762441626189532,35.354933333333335,1.3349965126879118,82.0,5/5,2655.0,476912,1433600
+mountaincar,stream_q,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-158.66000000000003,19.124922657795683,-172.7639,3.9572840068803647,583.5,10/10,115513.5,6048,3024
+mountaincar,stream_ac,10,"ADOPTED: derived/ablations_mountaincar_2000/stream_ac_documented/ (X3, Windows, 2026-10-19)",-199.965,0.11067971810589147,-199.5333,0.5061019989422451,1529.0,3/10,305356.0,64,66
+mountaincar,tiny_dqn,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-200.0,0.0,-199.99755,0.007747580267409078,,0/10,,1212,960
+mountaincar,standard_dqn,5,ORIGINAL: raw_final/ (unchanged),-200.0,0.0,-199.983,0.03801315561749998,,0/5,,316392,1413120

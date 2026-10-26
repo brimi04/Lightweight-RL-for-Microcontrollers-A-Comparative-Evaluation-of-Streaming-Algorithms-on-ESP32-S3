@@ -1,0 +1,106 @@
+env,agent,seed,n_seeds,source,r20,auc,ep_threshold,steps_threshold,memory_bytes,flops_per_update
+gridworld,stream_q,0,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.65,1.76,25.0,362.0,800,400
+gridworld,stream_q,1,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),1.95,1.4266666666666667,32.0,446.0,800,400
+gridworld,stream_q,2,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.0,1.4133333333333333,24.0,380.0,800,400
+gridworld,stream_q,3,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.1,1.2833333333333334,24.0,369.0,800,400
+gridworld,stream_q,4,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),1.9,1.72,21.0,309.0,800,400
+gridworld,stream_q,5,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),1.9,1.3166666666666667,23.0,393.0,800,400
+gridworld,stream_q,6,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.0,1.42,33.0,480.0,800,400
+gridworld,stream_q,7,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.45,1.83,22.0,307.0,800,400
+gridworld,stream_q,8,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.2,1.46,21.0,345.0,800,400
+gridworld,stream_q,9,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-0.1,-0.9433333333333334,,,800,400
+gridworld,stream_ac,0,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),1.5,-0.71,86.0,1587.0,76,84
+gridworld,stream_ac,1,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.05,0.55,85.0,1201.0,76,84
+gridworld,stream_ac,2,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.3,-0.17333333333333334,38.0,769.0,76,84
+gridworld,stream_ac,3,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.6,0.87,66.0,976.0,76,84
+gridworld,stream_ac,4,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.65,0.5966666666666667,48.0,886.0,76,84
+gridworld,stream_ac,5,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.8,1.1566666666666667,56.0,861.0,76,84
+gridworld,stream_ac,6,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.2,0.9366666666666666,55.0,863.0,76,84
+gridworld,stream_ac,7,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.55,0.7066666666666667,70.0,1085.0,76,84
+gridworld,stream_ac,8,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.35,0.45,78.0,1177.0,76,84
+gridworld,stream_ac,9,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.65,0.7366666666666667,49.0,875.0,76,84
+gridworld,tiny_dqn,0,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.0,0.3466666666666667,54.0,788.0,1264,1152
+gridworld,tiny_dqn,1,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),1.8,-3.6133333333333333,46.0,1840.0,1264,1152
+gridworld,tiny_dqn,2,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.6,0.47333333333333333,72.0,960.0,1264,1152
+gridworld,tiny_dqn,3,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.25,-2.0533333333333332,148.0,2446.0,1264,1152
+gridworld,tiny_dqn,4,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.1,-3.76,188.0,3324.0,1264,1152
+gridworld,tiny_dqn,5,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),1.6,0.12,58.0,938.0,1264,1152
+gridworld,tiny_dqn,6,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),1.75,-0.7566666666666667,97.0,1560.0,1264,1152
+gridworld,tiny_dqn,7,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),2.1,0.8866666666666667,105.0,1229.0,1264,1152
+gridworld,tiny_dqn,8,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),0.85,-17.706666666666667,151.0,6638.0,1264,1152
+gridworld,tiny_dqn,9,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),1.5,-12.303333333333333,98.0,4668.0,1264,1152
+gridworld,standard_dqn,0,5,ORIGINAL: raw_final/ (unchanged),1.35,-14.526666666666667,,,316912,1433600
+gridworld,standard_dqn,1,5,ORIGINAL: raw_final/ (unchanged),0.75,-10.7,,,316912,1433600
+gridworld,standard_dqn,2,5,ORIGINAL: raw_final/ (unchanged),1.8,-11.476666666666667,299.0,6644.0,316912,1433600
+gridworld,standard_dqn,3,5,ORIGINAL: raw_final/ (unchanged),0.1,-10.336666666666666,,,316912,1433600
+gridworld,standard_dqn,4,5,ORIGINAL: raw_final/ (unchanged),0.0,-12.146666666666667,,,316912,1433600
+cartpole,stream_q,0,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),126.85,76.26333333333334,643.0,14313.0,82944,41472
+cartpole,stream_q,1,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),127.1,68.276,811.0,10657.0,82944,41472
+cartpole,stream_q,2,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),105.65,21.801333333333332,1385.0,18984.0,82944,41472
+cartpole,stream_q,3,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),109.3,71.536,758.0,10411.0,82944,41472
+cartpole,stream_q,4,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),56.75,33.074,907.0,19574.0,82944,41472
+cartpole,stream_q,5,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),214.45,81.27866666666667,642.0,10211.0,82944,41472
+cartpole,stream_q,6,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),90.5,105.42266666666667,349.0,5427.0,82944,41472
+cartpole,stream_q,7,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),68.45,30.120666666666665,1047.0,16260.0,82944,41472
+cartpole,stream_q,8,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),12.5,10.470666666666666,,,82944,41472
+cartpole,stream_q,9,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),36.55,21.948,,,82944,41472
+cartpole,stream_ac,0,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),10.4,11.227333333333334,,,92,80
+cartpole,stream_ac,1,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.9,11.382666666666667,,,92,80
+cartpole,stream_ac,2,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.3,11.952,,,92,80
+cartpole,stream_ac,3,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.4,12.260666666666667,,,92,80
+cartpole,stream_ac,4,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.9,11.272666666666666,,,92,80
+cartpole,stream_ac,5,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),10.5,11.464,,,92,80
+cartpole,stream_ac,6,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.5,11.589333333333334,,,92,80
+cartpole,stream_ac,7,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.5,12.253333333333334,,,92,80
+cartpole,stream_ac,8,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),10.0,11.358666666666666,,,92,80
+cartpole,stream_ac,9,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),10.25,12.034666666666666,,,92,80
+cartpole,tiny_dqn,0,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.45,10.614,,,1784,1152
+cartpole,tiny_dqn,1,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.15,10.426,,,1784,1152
+cartpole,tiny_dqn,2,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.55,10.586,,,1784,1152
+cartpole,tiny_dqn,3,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.65,10.262666666666666,,,1784,1152
+cartpole,tiny_dqn,4,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),10.4,10.096666666666666,,,1784,1152
+cartpole,tiny_dqn,5,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.4,10.595333333333333,,,1784,1152
+cartpole,tiny_dqn,6,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.45,10.213333333333333,,,1784,1152
+cartpole,tiny_dqn,7,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.55,9.98,,,1784,1152
+cartpole,tiny_dqn,8,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.35,10.311333333333334,,,1784,1152
+cartpole,tiny_dqn,9,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),9.45,10.485333333333333,,,1784,1152
+cartpole,standard_dqn,0,5,ORIGINAL: raw_final/ (unchanged),34.8,35.955333333333336,72.0,2242.0,476912,1433600
+cartpole,standard_dqn,1,5,ORIGINAL: raw_final/ (unchanged),21.7,36.16133333333333,82.0,2727.0,476912,1433600
+cartpole,standard_dqn,2,5,ORIGINAL: raw_final/ (unchanged),22.4,36.586666666666666,72.0,2081.0,476912,1433600
+cartpole,standard_dqn,3,5,ORIGINAL: raw_final/ (unchanged),13.5,33.287333333333336,85.0,2655.0,476912,1433600
+cartpole,standard_dqn,4,5,ORIGINAL: raw_final/ (unchanged),19.65,34.784,162.0,5459.0,476912,1433600
+mountaincar,stream_q,0,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-144.1,-172.403,580.0,115029.0,6048,3024
+mountaincar,stream_q,1,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-188.3,-167.3475,587.0,115998.0,6048,3024
+mountaincar,stream_q,2,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-156.55,-177.2655,645.0,127753.0,6048,3024
+mountaincar,stream_q,3,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-144.15,-175.741,755.0,147876.0,6048,3024
+mountaincar,stream_q,4,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-144.25,-172.756,455.0,90385.0,6048,3024
+mountaincar,stream_q,5,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-150.05,-168.3485,535.0,106480.0,6048,3024
+mountaincar,stream_q,6,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-142.05,-175.1445,749.0,147550.0,6048,3024
+mountaincar,stream_q,7,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-175.95,-168.4575,751.0,148026.0,6048,3024
+mountaincar,stream_q,8,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-191.15,-178.8185,464.0,92251.0,6048,3024
+mountaincar,stream_q,9,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-150.05,-171.357,563.0,111900.0,6048,3024
+mountaincar,stream_ac,0,10,"ADOPTED: derived/ablations_mountaincar_2000/stream_ac_documented/ (X3, Windows, 2026-10-19)",-200.0,-199.721,,,64,66
+mountaincar,stream_ac,1,10,"ADOPTED: derived/ablations_mountaincar_2000/stream_ac_documented/ (X3, Windows, 2026-10-19)",-200.0,-199.8745,,,64,66
+mountaincar,stream_ac,2,10,"ADOPTED: derived/ablations_mountaincar_2000/stream_ac_documented/ (X3, Windows, 2026-10-19)",-200.0,-199.8315,,,64,66
+mountaincar,stream_ac,3,10,"ADOPTED: derived/ablations_mountaincar_2000/stream_ac_documented/ (X3, Windows, 2026-10-19)",-200.0,-199.5935,1529.0,305356.0,64,66
+mountaincar,stream_ac,4,10,"ADOPTED: derived/ablations_mountaincar_2000/stream_ac_documented/ (X3, Windows, 2026-10-19)",-200.0,-198.891,1592.0,316923.0,64,66
+mountaincar,stream_ac,5,10,"ADOPTED: derived/ablations_mountaincar_2000/stream_ac_documented/ (X3, Windows, 2026-10-19)",-200.0,-199.923,,,64,66
+mountaincar,stream_ac,6,10,"ADOPTED: derived/ablations_mountaincar_2000/stream_ac_documented/ (X3, Windows, 2026-10-19)",-200.0,-199.912,,,64,66
+mountaincar,stream_ac,7,10,"ADOPTED: derived/ablations_mountaincar_2000/stream_ac_documented/ (X3, Windows, 2026-10-19)",-200.0,-199.959,,,64,66
+mountaincar,stream_ac,8,10,"ADOPTED: derived/ablations_mountaincar_2000/stream_ac_documented/ (X3, Windows, 2026-10-19)",-200.0,-198.5525,1423.0,284224.0,64,66
+mountaincar,stream_ac,9,10,"ADOPTED: derived/ablations_mountaincar_2000/stream_ac_documented/ (X3, Windows, 2026-10-19)",-199.65,-199.075,,,64,66
+mountaincar,tiny_dqn,0,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-200.0,-200.0,,,1212,960
+mountaincar,tiny_dqn,1,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-200.0,-200.0,,,1212,960
+mountaincar,tiny_dqn,2,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-200.0,-200.0,,,1212,960
+mountaincar,tiny_dqn,3,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-200.0,-200.0,,,1212,960
+mountaincar,tiny_dqn,4,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-200.0,-199.9755,,,1212,960
+mountaincar,tiny_dqn,5,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-200.0,-200.0,,,1212,960
+mountaincar,tiny_dqn,6,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-200.0,-200.0,,,1212,960
+mountaincar,tiny_dqn,7,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-200.0,-200.0,,,1212,960
+mountaincar,tiny_dqn,8,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-200.0,-200.0,,,1212,960
+mountaincar,tiny_dqn,9,10,ORIGINAL: raw_final/ (unchanged from the earlier manuscript version),-200.0,-200.0,,,1212,960
+mountaincar,standard_dqn,0,5,ORIGINAL: raw_final/ (unchanged),-200.0,-199.915,,,316392,1413120
+mountaincar,standard_dqn,1,5,ORIGINAL: raw_final/ (unchanged),-200.0,-200.0,,,316392,1413120
+mountaincar,standard_dqn,2,5,ORIGINAL: raw_final/ (unchanged),-200.0,-200.0,,,316392,1413120
+mountaincar,standard_dqn,3,5,ORIGINAL: raw_final/ (unchanged),-200.0,-200.0,,,316392,1413120
+mountaincar,standard_dqn,4,5,ORIGINAL: raw_final/ (unchanged),-200.0,-200.0,,,316392,1413120

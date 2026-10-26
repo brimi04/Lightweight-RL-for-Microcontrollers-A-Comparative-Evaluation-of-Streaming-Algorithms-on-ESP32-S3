@@ -1,0 +1,139 @@
+{
+  "X1_stream_q_bins": {
+    "family": "X1_stream_q_bins",
+    "metric": "r20",
+    "ref": "ref",
+    "n_seeds": 10,
+    "friedman_chi2": 28.85714285714286,
+    "friedman_p": 2.4732823470110378e-05,
+    "pairwise_vs_ref": [
+      {
+        "config": "u6",
+        "label": "u6 [6]^4",
+        "w_stat": 27.0,
+        "w_p": 1.0,
+        "median_diff": -4.1000000000000085,
+        "boot_ci95": [
+          -34.625,
+          38.900000000000006
+        ],
+        "w_p_holm": 1.0,
+        "rejected_holm_0.05": false
+      },
+      {
+        "config": "u9",
+        "label": "u9 [9]^4",
+        "w_stat": 16.0,
+        "w_p": 0.275390625,
+        "median_diff": -43.325,
+        "boot_ci95": [
+          -85.10000000000001,
+          7.7749999999999915
+        ],
+        "w_p_holm": 0.55078125,
+        "rejected_holm_0.05": false
+      },
+      {
+        "config": "u12",
+        "label": "u12 [12]^4",
+        "w_stat": 6.0,
+        "w_p": 0.02734375,
+        "median_diff": -77.92500000000001,
+        "boot_ci95": [
+          -106.8,
+          -25.1
+        ],
+        "w_p_holm": 0.08203125,
+        "rejected_holm_0.05": false
+      },
+      {
+        "config": "u18",
+        "label": "u18 [18]^4",
+        "w_stat": 1.0,
+        "w_p": 0.00390625,
+        "median_diff": -83.05,
+        "boot_ci95": [
+          -111.35,
+          -38.7
+        ],
+        "w_p_holm": 0.015625,
+        "rejected_holm_0.05": true
+      },
+      {
+        "config": "u24",
+        "label": "u24 [24]^4",
+        "w_stat": 0.0,
+        "w_p": 0.001953125,
+        "median_diff": -86.825,
+        "boot_ci95": [
+          -116.1,
+          -40.825
+        ],
+        "w_p_holm": 0.009765625,
+        "rejected_holm_0.05": true
+      }
+    ]
+  },
+  "X2_stream_ac_beta": {
+    "family": "X2_stream_ac_beta",
+    "metric": "r20",
+    "ref": "ref_b005",
+    "n_seeds": 10,
+    "friedman_chi2": 3.4747474747474727,
+    "friedman_p": 0.4817284205205197,
+    "pairwise_vs_ref": [
+      {
+        "config": "b000",
+        "label": "beta=0.00",
+        "w_stat": 17.0,
+        "w_p": 0.322265625,
+        "median_diff": 0.17499999999999893,
+        "boot_ci95": [
+          -0.15000000000000036,
+          0.5999999999999996
+        ],
+        "w_p_holm": 1.0,
+        "rejected_holm_0.05": false
+      },
+      {
+        "config": "b001",
+        "label": "beta=0.01",
+        "w_stat": 18.0,
+        "w_p": 0.353515625,
+        "median_diff": -0.07500000000000107,
+        "boot_ci95": [
+          -0.4750000000000014,
+          0.6499999999999986
+        ],
+        "w_p_holm": 1.0,
+        "rejected_holm_0.05": false
+      },
+      {
+        "config": "b010",
+        "label": "beta=0.10",
+        "w_stat": 20.5,
+        "w_p": 0.51171875,
+        "median_diff": -0.27500000000000036,
+        "boot_ci95": [
+          -0.7249999999999996,
+          0.3000000000000007
+        ],
+        "w_p_holm": 1.0,
+        "rejected_holm_0.05": false
+      },
+      {
+        "config": "b030",
+        "label": "beta=0.30",
+        "w_stat": 21.5,
+        "w_p": 0.580078125,
+        "median_diff": 0.07499999999999929,
+        "boot_ci95": [
+          -0.4499999999999993,
+          0.5500000000000007
+        ],
+        "w_p_holm": 1.0,
+        "rejected_holm_0.05": false
+      }
+    ]
+  }
+}
