@@ -1,8 +1,6 @@
-# TinyRL on ESP32-S3
+# Lightweight RL on ESP32-S3
 
 Lightweight online reinforcement learning on a microcontroller. This repository contains the Python implementations, the ESP32-S3 firmware, the experimental data and the analysis scripts of the research described in:
-
-> B. M. Oliva Chuquimia, S. B. Mafra, F. A. P. de Figueiredo. **Lightweight Reinforcement Learning for Microcontrollers: A Comparative Evaluation of Streaming Algorithms on ESP32-S3 Hardware.** National Institute of Telecommunications (Inatel), Brazil.
 
 ## 1. Project description
 
@@ -104,6 +102,3 @@ Reproducibility notes:
 
 `MANIFEST_SHA256.csv` lists the SHA-256 of every file (`python tools/verify_manifest.py`). The included `.gitattributes` keeps line endings unchanged so that the hashes remain valid after a git checkout.
 
-## 6. Citation and license
-
-Please cite the article above. Citation metadata, an archival DOI and the license will be added when the repository is published.
