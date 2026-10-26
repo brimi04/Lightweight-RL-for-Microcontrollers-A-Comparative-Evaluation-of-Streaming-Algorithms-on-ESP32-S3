@@ -1,0 +1,106 @@
+{
+  "protocol": "X1",
+  "config_id": "u9",
+  "bins": [
+    9,
+    9,
+    9,
+    9
+  ],
+  "n_states": 6561,
+  "params": {
+    "alpha": 0.1,
+    "gamma": 0.99,
+    "lam": 0.9,
+    "epsilon": 0.1,
+    "epsilon_decay": 0.999
+  },
+  "episodes": 1500,
+  "max_episode_steps": 500,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "reset_seed": "seed + episode",
+  "rng": "numpy.random.default_rng(seed)",
+  "provenance_start": {
+    "utc": "2026-10-19T20:40:08+00:00",
+    "argv": [
+      "C:\\Users\\MSI\\Downloads\\IDEA1\\research\\experiments\\run_ablations_cartpole_v19.py",
+      "--stage",
+      "grid"
+    ],
+    "command": "run_x1_x2_v19.ps1 -Ablation X1",
+    "environment": {
+      "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+      "executable": "C:\\Users\\MSI\\Downloads\\IDEA1\\research\\.venv\\Scripts\\python.exe",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "numpy": "2.2.6",
+      "gymnasium": "0.29.1",
+      "pyyaml": "6.0.3",
+      "pip_freeze": [
+        "cloudpickle==3.1.2",
+        "contourpy==1.3.2",
+        "cycler==0.12.1",
+        "Farama-Notifications==0.0.6",
+        "fonttools==4.63.0",
+        "gymnasium==0.29.1",
+        "kiwisolver==1.5.0",
+        "matplotlib==3.10.9",
+        "numpy==2.2.6",
+        "packaging==26.2",
+        "pandas==2.3.3",
+        "pillow==12.2.0",
+        "pyparsing==3.3.2",
+        "pyserial==3.5",
+        "python-dateutil==2.9.0.post0",
+        "pytz==2026.2",
+        "PyYAML==6.0.3",
+        "six==1.17.0",
+        "tabulate==0.10.0",
+        "typing_extensions==4.15.0",
+        "tzdata==2026.2"
+      ]
+    },
+    "code_sha256": {
+      "experiments/run_single.py": "6400d9d83817b9dfec0dda34118466e9ef8a669ec246dda9c286cba4f19a956b",
+      "experiments/config.yaml": "0c45344f280a202860e082b85fcd7a651cfe61171588c4097c346e495c494c29",
+      "experiments/run_ablations_cartpole_v19.py": "7c60bc245445a3b450a3f44b9207c22bf11186d5bc6047db5fb55777e8e1c80c",
+      "experiments/run_controls_v19.py": "7fa1859df877b733596f4180119f86ae9753d1ee5abf253cac057ca6a65321eb",
+      "experiments/controls_common_v19.py": "66b66f3caf3177d52babac4e3ad21cd6d5b68f68d3ac2a015abb86c5fb77eec1",
+      "experiments/run_controls_v19.ps1": "34d951655667c563789aee826e240735efb5f602277449091300f79eb3ed4a94",
+      "agents/base_agent.py": "a784e3ded27dded65415fe89f64b613153cb9348ba8a545ee884713105a5ad5b",
+      "agents/stream_q.py": "d67b5cec6d0c02fff9873d52b9ecd4bba243e24b62ac3e3ba5cfa869599b96cb",
+      "agents/stream_ac.py": "10141bd1735d179ce5f5e2284c1fd382333300ec179517bd8d2bded44d9abe37",
+      "agents/tiny_dqn.py": "962e8bd5cae6a2089eab306a7bf03ce0748426cfef81799afe6e3bcc9d3db143",
+      "core/nn_manual.py": "9d88ff4795ab000c3e7b56b559edad0e8bcf355a4e876098ae7a1e677cfa486d",
+      "core/running_normalizer.py": "b2ad68b60166dd49af806af37727c43dc4b5fe45bcaaeb9c89ed68fb7ff403cb",
+      "core/metrics.py": "27ce22f21977d8bda90a9a003d6fd76db429e115352c5aeb579d89be4cd9b84b",
+      "envs/gridworld.py": "46ffc6942090e8635e2368879c184be7b9ca4ad39a94b42c1dceaa9e05f849de",
+      "envs/wrappers.py": "327719b8a60d930f99051832a1dc00542d65ed8f2eb4fdcd4553116105dbdd9f"
+    }
+  },
+  "wall_clock_s": 25.0,
+  "outputs_sha256": {
+    "stream_q_cartpole_0.csv": "960e277e45c5bde2dff3c24375ba61e7f8d4d6b07ea911ccdd9aae27258e2a9e",
+    "stream_q_cartpole_1.csv": "afb82bec583f63f8077477817fe065ce09a84cff90e5cc1997b7c4c53e1004b5",
+    "stream_q_cartpole_2.csv": "e141f39a06fa2adb21b6ed1dac2869a5940c2fc72507baaa045e891ccdaab525",
+    "stream_q_cartpole_3.csv": "4298d0730fdeeee0d33cac34c3deffeadc88a13005ba8a2f0b752020f5941744",
+    "stream_q_cartpole_4.csv": "f0aa9352298e0e8c0418b6f0edc22ef92a07d9c570accdbfc8057a5f4b02a3df",
+    "stream_q_cartpole_5.csv": "ba8c49f3cc39218dc2cf6b83d3ccf0d27c5f0c481ae839b71c4cd75d5cde0593",
+    "stream_q_cartpole_6.csv": "d6a8ed0362c040a2da8319afaa12b618c295c47446d93b9f11bf6bdd3bda02cf",
+    "stream_q_cartpole_7.csv": "5220e32510f17c24cb863bc5804a03b040088c748b776781894e11d429b13896",
+    "stream_q_cartpole_8.csv": "0f49e2cdd21beef12ef0cd07a716e78893aa365439ddaff4c81d3d3b59d7b3f2",
+    "stream_q_cartpole_9.csv": "6d1ec74cf2e5c8b25f4d12b1940694e293df32a1dd18066e4f857f0269ac2abc"
+  }
+}
